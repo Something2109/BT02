@@ -1,4 +1,4 @@
-﻿#include <iostream>
+#include <iostream>
 #include <cmath>
 #include <string>
 #include <vector>
@@ -44,7 +44,7 @@ using namespace std;
     }
     case 2: {
         if (y % 4 == 0) {
-            if (y % 400 != 0) {
+            if (y % 400 == 0) {
                 return 29;
                 break;
             }
