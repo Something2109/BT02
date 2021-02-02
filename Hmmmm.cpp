@@ -44,12 +44,12 @@ using namespace std;
     }
     case 2: {
         if (y % 4 == 0) {
-            if (y % 400 == 0) {
-                return 29;
+            if (y % 400 != 0) {
+                return 28;
                 break;
             }
             else {
-                return 28;
+                return 29;
             }
         }
         else {
