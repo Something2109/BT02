@@ -146,9 +146,6 @@ int main() {
     }
 } */
 
-//BaiB
-/*1b 2d 3c 4a 5a 6a,b 7d 8d 9d 10b 11c 12b 13b 14d 15b 16c 17c 18d 19c */
-
 //BaiC1
 /*bool primeCheck(int n) {
     if (n < 2) {
